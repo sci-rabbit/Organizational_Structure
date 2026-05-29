@@ -1,0 +1,36 @@
+# Git
+.git/
+.gitignore
+
+
+# Venv
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Linting
+.ruff_cache/
+.mypy_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Docs
+README.md
+
+# OS
+.DS_Store
+Thumbs.db

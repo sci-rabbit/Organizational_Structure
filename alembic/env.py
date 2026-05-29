@@ -9,8 +9,8 @@ from alembic import context
 
 from core.config import settings
 from models.base import Base
-import models.department  # noqa: F401
-import models.employee    # noqa: F401
+from models.department import Department# noqa: F401
+from models.employee import Employee # noqa: F401
 
 config = context.config
 
